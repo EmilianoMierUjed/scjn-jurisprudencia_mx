@@ -5,7 +5,7 @@ motor de búsqueda jurídicamente especializado.** Diseñada por y para
 abogados litigantes mexicanos.
 
 El producto es la BD + el motor + el protocolo de búsqueda. El LLM
-(Claude Desktop, API Anthropic, próximamente otros) es una pieza
+(Claude recomendado) es una pieza
 intercambiable que opera sobre ese motor.
 
 ## Qué resuelve
@@ -34,6 +34,7 @@ Esta herramienta:
 | Modo | LLM | Costo | Recomendado para |
 |------|-----|-------|-------------------|
 | **Claude Desktop + MCP** | Claude Pro ($20 USD/mes) | Suscripción ilimitada | Uso diario, conversación |
+| **Claude Code + MCP** | Claude Pro ($20 USD/mes) | Suscripción ilimitada | Uso diario, conversación |
 | **CLI standalone (API)** | API Anthropic (pago por uso) | ~$0.50–3 USD por consulta | Uso ocasional, automatizaciones, batch |
 | **Solo SQL** | Ninguno | Gratis | Despachos con dev interno |
 
@@ -143,16 +144,9 @@ Ver [`docs/INSTALACION.md`](docs/INSTALACION.md) para la guía completa.
 
 ## Requisitos
 
-- Windows 10/11 (cliente) o Linux (desarrollo)
+- Windows 10/11 o linux.
 - Python 3.10+ (innecesario si usas los `.exe` compilados)
 - Para Claude Desktop: suscripción Claude Pro
 - Para el CLI: una API key de Anthropic
 - ~1.5 GB libres en disco (BD + dependencias)
 
-## Preguntas frecuentes de venta
-
-- *"¿Esto es Claude haciendo el trabajo?"*
-- *"¿Puedo usarlo sin pagar Claude Pro?"*
-- *"¿Qué pasa si Anthropic cierra mañana?"*
-
-→ Respuestas honestas en [`docs/FAQ_VENTA.md`](docs/FAQ_VENTA.md).
